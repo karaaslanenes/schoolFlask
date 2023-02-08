@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}{{ super() }} - Info{% endblock %}
+
+<body>
+{% block main %}
+    <h4 class="info"><h1>OUR STAFF</h1></h4>
+
+    <table class="table table-bordered">
+        <tr class="headerTabel">
+            {% for header in headings %}
+                <th class="cellTable"><span>{{ header }}</span></th>
+            {% endfor %}
+        </tr>
+          {% for row in data %}
+        <tr class="rowTable">
+           {% for cell in row %}
+               <td class="cellTable">{{ cell }}</td>
+               {% endfor %}
+        </tr>
+       {% endfor %}
+    </table>
+{% endblock %}
+</body>

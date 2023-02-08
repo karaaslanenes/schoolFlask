@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{ super() }} - News{% endblock %}
+
+{% block main %}
+    <div class="table table-hover">
+        <h1>Daily Amity  News</h1>
+        <table class="table_news">
+         <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Contents</th>
+                </tr>
+            </thead>
+
+
+ {% for col in listnews %}
+                   <tr>
+
+                            <td>{{ col [0]}}</td>
+                            <td>{{ col[1] }}</td>
+                              <td>{{ col[2] }}</td>
+
+                            </tr>
+                        {%  endfor %}
+
+        </table>
+    </div>
+{% endblock %}

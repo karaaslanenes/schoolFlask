@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.display {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+table {
+	border-spacing: 20px;
+}
+
+.nav-link
+{
+  font-family: 'Lato', sans-serif;
+  color:grey;
+  font-size: 30px;
+  margin: 0px;
+}
+.navbar-brand
+{
+  font-family: Fantasy;
+  color:Black;
+  font-size: 35px !important;
+  margin: 0px;
+	  font-weight: bold;
+
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background: green;
+}
+
+.Gecler{
+	color: white;
+padding-left:10px;
+  padding-right:10px;
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: .3rem;
+}
+
+
+main {
+    margin-bottom: 3px;
+    margin-top: -22px;
+    background-color: lightsalmon;
+}
+
+.container {
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    color: #8f0d87;
+
+}
+
+.careers {
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.careers>span {
+    font-weight: bold;
+}
+
+td>span {
+    font-weight: 555;
+
+    font-size: 13px;
+}
+
+th>span {
+    font-weight: 900;
+    text-decoration: #555555;
+    font-size: 16px;
+}
+
+.organization {
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+
+table {
+    border: 2px solid rgb(204, 228, 255);
+    border-collapse: collapse;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+table tr {
+    background: cadetblue;
+    border: 2px solid rgb(204, 228, 255);;
+    color: brown;
+    padding: .35em;
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+}
+
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+table {
+        margin-bottom: 40px;
+}
+
+.table {
+    border: 2px solid rgb(204, 228, 255);
+    border-collapse: collapse;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.rowTable:nth-child(even) {
+        background-color:steelblue;
+    color: black;
+}
+
+.headerTabel {
+        text-align: left;
+}
+
+.cellTable {
+        padding: 8px;
+}
+
+
+
+@media screen and (max-width: 1230px) {
+    .careers {
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    table {
+        border: 2px;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        border-bottom: 3px solid rgb(128,128,128);
+        display: block;
+    }
+
+    table td {
+        border-bottom: 3px solid rgb(128,128,128);
+        display: block;
+        font-size: .8em;
+        text-align: center;
+    }
+
+}
+
+.display{
+	font-family: "monospace", monospace;
+text-align:center;
+	font-size: 30px;
+}
+
+.container {
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    color: #8f0d87;
+}
+.img {
+   width: 100%;
+    height: auto;
+object-fit: cover;
+
+}

@@ -1,0 +1,23 @@
+
+{% extends "base.html" %}
+
+{% block title %}{{ super() }} - Login{% endblock %}
+
+
+{% block main %}
+    <body>
+<div style="background-image: url('/static/log2.jpg');background-repeat: no-repeat;background-size: cover">
+
+{% for message in get_flashed_messages() %}
+    {{ message }}<br/>
+{% endfor %}
+<form action="/login" method="post">
+    {{ form.csrf_token }}
+    {{ form.username.label }} {{ form.username }}<br/>
+    {{ form.password.label }} {{ form.password }}<br/>
+    {{ form.submit }}
+<a class="text-right" href="/register" class="text-info"><b><u>Create  a new  Account</u></b></a>
+</form>
+
+
+ {% endblock %}
